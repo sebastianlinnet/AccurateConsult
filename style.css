@@ -3,6 +3,7 @@ body {
     padding: 0;
     overflow-x: hidden;
     background-color: #f5f5f5;
+    
 }
 
 p {
@@ -97,6 +98,7 @@ h2, h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .services-wrapper {
@@ -142,11 +144,8 @@ h2, h3 {
     /* border-style: solid; */
     /* border: 0.5px solid #3a3a3a; */
     border-color: #3a3a3a;
-}
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.21);
 
-.col-sm-4:hover {
-    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.21);
-    /* transition: 10ms ease-in; */
 }
 
 .fade-in, .fade-in-2, .fade-in-3 {
@@ -257,8 +256,8 @@ h2, h3 {
 
 .contact {
     width: 100wv;
-    height: 100vh;
-    background-color: #E2E4E3;
+    height: 80vh;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2000' height='800' preserveAspectRatio='none' viewBox='0 0 2000 800'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1011%26quot%3b)' fill='none'%3e%3cpath d='M641.63 811.13C868.2 795.14 1002.32 369.16 1428.07 356.25 1853.82 343.34 2011.65 157.81 2214.51 156.25' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M461.3 825.77C684.44 753.59 725.4 124.28 1063.5 106.49 1401.6 88.7 1364.6 206.49 1665.7 206.49 1966.8 206.49 2115.29 106.83 2267.9 106.49' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M840.13 875.24C967.24 874.41 944.96 762.52 1334.56 756.64 1724.16 750.76 2060.38 402.18 2323.41 396.64' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M660.87 880.13C838.87 845.09 911.41 396.22 1196.21 390.21 1481.01 384.2 1463.88 490.21 1731.55 490.21 1999.22 490.21 2130.74 390.64 2266.89 390.21' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M786.67 826.78C961.26 762.99 893.71 241.74 1243.63 240.28 1593.54 238.82 1916.79 540.33 2157.54 544.28' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1011'%3e%3crect width='2000' height='800' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
     position: relative;
     display: flex;
     justify-content: center;
@@ -267,7 +266,7 @@ h2, h3 {
 }
 
 .contact-wrapper {
-    min-width: 80vw;
+    width: 80vw;    
 }
 
 .custom-shape-divider-top-1672302919 {
