@@ -7,6 +7,12 @@ new Ukiyo(head, {
     speed: 2,
 });
 
+//simple parallax
+// var image = document.querySelector('.header');
+// new simpleParallax(image, {
+//     scale: 2
+// });
+
 // fade effect
 const faders = document.querySelectorAll('.fade-in');
 
@@ -17,7 +23,7 @@ const scroller = new IntersectionObserver( entries => {
         })
     },
     {
-        threshold: 0.9,
+        threshold: 0.2,
     }
 )
 
@@ -34,7 +40,7 @@ const scroller2 = new IntersectionObserver( entries => {
         })
     },
     {
-        threshold: 0.9,
+        threshold: 0.2,
     }
 )
 
@@ -51,7 +57,7 @@ const scroller3 = new IntersectionObserver( entries => {
         })
     },
     {
-        threshold: 0.9,
+        threshold: 0.2,
     }
 )
 

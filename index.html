@@ -21,19 +21,21 @@
     <script src="https://kit.fontawesome.com/bbe27ab0c5.js" crossorigin="anonymous"></script>
     <!-- Animate css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- simpleParallax -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
     <title>Accurate Consult</title>
 </head>
 
 <body>
     <div class="header">
         <div class="opacity">
-            <div class="logo-top">
-                <img src="imgs\logo.png" style="height: 20em;">
+            <div class="logo-top fade-in">
+                <img src="imgs\logo.png" style="height: 20em;" class="logo-parallax">
             </div>
         </div>
     </div>
     <div class="services">
-        <div class="custom-shape-divider-bottom-1672242877">
+        <!-- <div class="custom-shape-divider-bottom-1672242877">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
                 preserveAspectRatio="none">
                 <path
@@ -46,10 +48,10 @@
                     d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
                     class="shape-fill"></path>
             </svg>
-        </div>
+        </div> -->
         <div class="service-wrapper">
             <div class="services-header fade-in">
-                <h1>Services</h1>
+                <h1>SERVICES</h1>
             </div>
             <div class="wrapper-row">
                 <div class="row" id="row-services">
@@ -79,12 +81,12 @@
     </div>
     <div class="om-mig">
         <div class="om-mig-wrapper">
-            <div class="services-header fade-in">
-                <h1>About</h1>
+            <div class="services-header">
+                <h1>ABOUT</h1>
             </div>
 
             <div class="projects">
-                <div class="projects-left fade-in">
+                <div class="projects-left">
                     <h2>Rasmus Haugaard Skov</h2>
                     <p>Kevin short loin bresaola pork loin chuck tri-tip biltong. Fatback short ribs andouille rump jowl
                         picanha ham hock. Meatball tongue rump, prosciutto capicola filet mignon pork belly pancetta.
@@ -109,26 +111,29 @@
     </div>
     <div class="contact">
         <div class="contact-wrapper">
-            <div class="custom-shape-divider-top-1672302919">
+            <!-- <div class="custom-shape-divider-top-1672302919">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
                     preserveAspectRatio="none">
                     <path
                         d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
                         class="shape-fill"></path>
                 </svg>
-            </div>
+            </div> -->
 
-            <!-- <div class="custom-shape-divider-top-1672406414">
+            <div class="custom-shape-divider-top-1672418831">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z" class="shape-fill"></path>
                 </svg>
-            </div> -->
+            </div>
             <div class="contact-list">
                 <ul>
-                    <li><p><i class="fab fa-linkedin fa-5x"></i>Linked In</li></p>
-                    <li><i class="fas fa-at fa-5x"></i>E-mail</li>
-                    <li><i class="fas fa-phone fa-5x"></i>Telefon</li>
-                    <li><i class="fas fa-address-card fa-5x"></i>CVR</li>
+                    <li>
+                        <h2><i class="fab fa-linkedin"></i> Rasmus Haugaard Skov
+                    </li>
+                </h2>
+                    <h2><li><i class="fas fa-at"></i> E-mail</li></h2>
+                    <h2><li><i class="fas fa-phone"></i> Telefon</li></h2> 
+                    <h2><li><i class="fas fa-address-card"></i> CVR</li></h2>
                 </ul>
             </div>
         </div>
